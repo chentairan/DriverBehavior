@@ -10,16 +10,11 @@ spatial_input = Input(shape=(224,224,3), name='Spatial')
 x1 = AlexNet(spatial_input)
 
 
-
-
 #temporal
 
 temporal_input = Input(shape=(224,224,2), name='Temporal')
 
 x2 = AlexNet(input_layer = spatial_input, input_shape = (224, 224, 2), output_dim = 9 * 4096)
-
-
-
 
 
 
