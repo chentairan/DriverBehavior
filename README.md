@@ -1,6 +1,8 @@
-# **Two_Stream_Model**
+# **Driver Behavior Assessment**
 
-Trafﬁc Risk Assessment: A Two-Stream Approach Using Dynamic-Attention
+Driver Behavior Assessment
+
+write a simple model using ConvLSTM that can achieve 88% accuracy in binary classification.
 
 ### Requirements
 
